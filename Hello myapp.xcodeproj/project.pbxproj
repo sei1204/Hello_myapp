@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27609E2A1C201BC7000C72B2 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27609E291C201BC7000C72B2 /* QuizViewController.swift */; };
+		27609E2C1C201BDD000C72B2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27609E2B1C201BDD000C72B2 /* ResultViewController.swift */; };
+		27609E2E1C201C32000C72B2 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27609E2D1C201C32000C72B2 /* SelectionViewController.swift */; };
+		27609E301C201DEA000C72B2 /* GameSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27609E2F1C201DEA000C72B2 /* GameSettingsViewController.swift */; };
+		27609E321C201F07000C72B2 /* HeartRecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27609E311C201F07000C72B2 /* HeartRecoveryViewController.swift */; };
+		278C353B1C0AF26D00CD9806 /* 写真（2015-11-21 21.40）.png in Resources */ = {isa = PBXBuildFile; fileRef = 278C353A1C0AF26D00CD9806 /* 写真（2015-11-21 21.40）.png */; };
 		278F29851C008C8F0072D04E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278F29841C008C8F0072D04E /* AppDelegate.swift */; };
 		278F29871C008C8F0072D04E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278F29861C008C8F0072D04E /* ViewController.swift */; };
 		278F298A1C008C8F0072D04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278F29881C008C8F0072D04E /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27609E291C201BC7000C72B2 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		27609E2B1C201BDD000C72B2 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		27609E2D1C201C32000C72B2 /* SelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		27609E2F1C201DEA000C72B2 /* GameSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSettingsViewController.swift; sourceTree = "<group>"; };
+		27609E311C201F07000C72B2 /* HeartRecoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRecoveryViewController.swift; sourceTree = "<group>"; };
+		278C353A1C0AF26D00CD9806 /* 写真（2015-11-21 21.40）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "写真（2015-11-21 21.40）.png"; sourceTree = "<group>"; };
 		278F29811C008C8F0072D04E /* Hello myapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello myapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		278F29841C008C8F0072D04E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		278F29861C008C8F0072D04E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,8 +70,14 @@
 				278F29861C008C8F0072D04E /* ViewController.swift */,
 				278F29881C008C8F0072D04E /* Main.storyboard */,
 				278F298B1C008C8F0072D04E /* Assets.xcassets */,
+				278C353A1C0AF26D00CD9806 /* 写真（2015-11-21 21.40）.png */,
 				278F298D1C008C8F0072D04E /* LaunchScreen.storyboard */,
 				278F29901C008C8F0072D04E /* Info.plist */,
+				27609E291C201BC7000C72B2 /* QuizViewController.swift */,
+				27609E2B1C201BDD000C72B2 /* ResultViewController.swift */,
+				27609E2D1C201C32000C72B2 /* SelectionViewController.swift */,
+				27609E2F1C201DEA000C72B2 /* GameSettingsViewController.swift */,
+				27609E311C201F07000C72B2 /* HeartRecoveryViewController.swift */,
 			);
 			path = "Hello myapp";
 			sourceTree = "<group>";
@@ -122,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278C353B1C0AF26D00CD9806 /* 写真（2015-11-21 21.40）.png in Resources */,
 				278F298F1C008C8F0072D04E /* LaunchScreen.storyboard in Resources */,
 				278F298C1C008C8F0072D04E /* Assets.xcassets in Resources */,
 				278F298A1C008C8F0072D04E /* Main.storyboard in Resources */,
@@ -135,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27609E2E1C201C32000C72B2 /* SelectionViewController.swift in Sources */,
+				27609E2A1C201BC7000C72B2 /* QuizViewController.swift in Sources */,
+				27609E301C201DEA000C72B2 /* GameSettingsViewController.swift in Sources */,
 				278F29871C008C8F0072D04E /* ViewController.swift in Sources */,
 				278F29851C008C8F0072D04E /* AppDelegate.swift in Sources */,
+				27609E321C201F07000C72B2 /* HeartRecoveryViewController.swift in Sources */,
+				27609E2C1C201BDD000C72B2 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Hello myapp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hijiki.Hello-myapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +286,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Hello myapp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hijiki.Hello-myapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +312,7 @@
 				278F29951C008C8F0072D04E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
